@@ -7,9 +7,17 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "Qual sua opinião sobre o chat gpt: [
-            "Isso é assustador!",
-            "Isso é maravilhoso!"
-        ]
+            alternativa:[
+    {
+        texto:"isso é assustador"
+        afirmação:"afirmção",
+    },
+    {
+        texto: "Isso é maravilhoso!"
+            afirmação:"afirmação",
+    },
+   [
+{
     },
     {
         enunciado: "Com a descoberta desta tecnologia (IA), o professor decidiu fazer uma sequência de aulas sobre esta ela. No fim de uma aule ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
